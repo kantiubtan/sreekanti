@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sree Kanti - Where Purity Meets Glow</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf3;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(to right, #f8e7c7, #f3d9a5);
+}
+
+.logo {
+  max-width: 220px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #7a4e2d;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #8b2e2e;
+}
+
+.hero p {
+  max-width: 500px;
+  margin: auto;
+}
+
+button {
+  background: #c49a6c;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* PAYMENT */
+.payment {
+  background: #fff3e0;
+}
+
+/* FOOTER */
+.footer {
+  background: #8b2e2e;
+  color: white;
+  padding: 30px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .products {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product {
+    width: 30%;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER WITH LOGO -->
+<div class="header">
+  <img src="logo.png" class="logo">
+  <div class="tagline">Where Purity Meets Glow</div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>कांती उठणे</h1>
+  <p>नैसर्गिक आयुर्वेदिक त्वचा काळजी – उजळ आणि तजेलदार त्वचेसाठी</p>
+  <button onclick="window.location.href='https://wa.me/918208422976'">
+    WhatsApp करा
+  </button>
+</section>
+
+<!-- PRODUCTS -->
+<section>
+  <h2>आमची उत्पादने</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="ubtan.jpg">
+      <h3>Kanti Ubtan</h3>
+      <p>त्वचेला उजळपणा देतो आणि नैसर्गिक glow वाढवतो.</p>
+    </div>
+
+    <div class="product">
+      <img src="bathsalt.jpg">
+      <h3>Kanti Bath Salt</h3>
+      <p>Relaxation आणि freshness साठी हर्बल बाथ सॉल्ट.</p>
+    </div>
+
+    <div class="product">
+      <img src="gift.jpg">
+      <h3>Kanti Gift Hampers</h3>
+      <p>Special occasions साठी premium gift sets.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY -->
+<section>
+  <h2>का निवडाल Kanti?</h2>
+  <ul>
+    <li>100% नैसर्गिक घटक</li>
+    <li>रसायनमुक्त</li>
+    <li>सर्व skin types साठी योग्य</li>
+  </ul>
+</section>
+
+<!-- PAYMENT -->
+<section class="payment">
+  <h2>Payment Options</h2>
+  <p><strong>UPI:</strong> 8208422976@upi</p>
+  <p><strong>Cash on Delivery (COD):</strong> Available</p>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:kantiubtan@gmail.com">kantiubtan@gmail.com</a></p>
+  <p>WhatsApp: <a href="https://wa.me/918208422976">8208422976</a></p>
+</section>
+
+<!-- CTA -->
+<section>
+  <h2>अधिक माहितीसाठी डायरेक्ट मेसेज करा</h2>
+  <button onclick="window.location.href='https://wa.me/918208422976'">
+    WhatsApp Now
+  </button>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2026 Sree Kanti. All Rights Reserved.
+</div>
+
+</body>
+</html>
